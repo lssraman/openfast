@@ -292,7 +292,7 @@ CHARACTER(MaxMsgLen)          :: ErrMsg2
          Indx        = Indx + 1
          !UM(Indx)      = 0.5*(U(I) + U(J) )
          !DistU(Indx) = Dist(Indx)/UM(Indx)
-         DistU(Indx) = Dist(Indx)/ p%UHub  ! 03/24/2018-modified Coherence model was p%met%URef previously # Latha Sethuraman  08/30/2017
+         DistU(Indx) = Dist(Indx)/ p%UHub  ! modified Coherence model  # Latha Sethuraman  08/30/2017
       END DO ! I  
    END DO ! J 
    
